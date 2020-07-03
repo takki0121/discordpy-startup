@@ -4,8 +4,8 @@ import traceback
 
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
-
-ID_ROLE_MEMBER = 576891687620118902
+#仮メンID
+ID_ROLE_MEMBER = 728613284785422456
 
 @client.event
 async def on_member_join(member):
